@@ -2,15 +2,14 @@ import React from 'react';
 import Header from '../../share/Header/Header';
 import Footer from '../../share/Footer/Footer';
 
-const Home = () => {
+const About = () => {
     return (
         <div>
             <Header/>
-            
-            {/* <h1 className='text-center'>Home</h1> */}
+            {/* <h1>About</h1> */}
             <Footer/>
         </div>
     );
 };
 
-export default Home;
+export default About;
